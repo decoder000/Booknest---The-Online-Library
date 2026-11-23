@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="600" viewBox="0 0 400 600" role="img" aria-label="Building Microservices by Sam Newman">
+  <title>Building Microservices - Sam Newman</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#1f2933"/>
+      <stop offset="1" stop-color="#323f4b"/>
+    </linearGradient>
+    <linearGradient id="spine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#000000" stop-opacity="0.38"/>
+      <stop offset="0.6" stop-color="#000000" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.12"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.10"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="art"><rect x="0" y="0" width="400" height="270"/></clipPath>
+  </defs>
+  <rect width="400" height="600" fill="url(#bg)"/>
+  <g clip-path="url(#art)"><polygon points="0,44 25,0 50,44" fill="#9aa5b1" opacity="0.3"/><polygon points="50,0 100,0 75,44" fill="#9aa5b1" opacity="0.3"/><polygon points="100,44 125,0 150,44" fill="#9aa5b1" opacity="0.3"/><polygon points="200,44 225,0 250,44" fill="#9aa5b1" opacity="0.3"/><polygon points="250,0 300,0 275,44" fill="#f5c84c" opacity="0.95"/><polygon points="300,44 325,0 350,44" fill="#9aa5b1" opacity="0.3"/><polygon points="350,0 400,0 375,44" fill="#9aa5b1" opacity="0.4"/><polygon points="400,44 425,0 450,44" fill="#9aa5b1" opacity="0.4"/><polygon points="-25,88 0,44 25,88" fill="#9aa5b1" opacity="0.4"/><polygon points="175,88 200,44 225,88" fill="#9aa5b1" opacity="0.5"/><polygon points="225,44 275,44 250,88" fill="#9aa5b1" opacity="0.3"/><polygon points="275,88 300,44 325,88" fill="#9aa5b1" opacity="0.3"/><polygon points="325,44 375,44 350,88" fill="#9aa5b1" opacity="0.4"/><polygon points="375,88 400,44 425,88" fill="#9aa5b1" opacity="0.3"/><polygon points="425,44 475,44 450,88" fill="#9aa5b1" opacity="0.5"/><polygon points="-50,88 0,88 -25,132" fill="#9aa5b1" opacity="0.4"/><polygon points="150,88 200,88 175,132" fill="#9aa5b1" opacity="0.4"/><polygon points="300,132 325,88 350,132" fill="#f5c84c" opacity="0.95"/><polygon points="400,132 425,88 450,132" fill="#f5c84c" opacity="0.95"/><polygon points="-25,176 0,132 25,176" fill="#f5c84c" opacity="0.95"/><polygon points="25,132 75,132 50,176" fill="#9aa5b1" opacity="0.3"/><polygon points="75,176 100,132 125,176" fill="#9aa5b1" opacity="0.4"/><polygon points="225,132 275,132 250,176" fill="#9aa5b1" opacity="0.3"/><polygon points="275,176 300,132 325,176" fill="#f5c84c" opacity="0.95"/><polygon points="375,176 400,132 425,176" fill="#9aa5b1" opacity="0.5"/><polygon points="425,132 475,132 450,176" fill="#9aa5b1" opacity="0.5"/><polygon points="0,220 25,176 50,220" fill="#9aa5b1" opacity="0.5"/><polygon points="50,176 100,176 75,220" fill="#9aa5b1" opacity="0.3"/><polygon points="100,220 125,176 150,220" fill="#9aa5b1" opacity="0.4"/><polygon points="150,176 200,176 175,220" fill="#9aa5b1" opacity="0.3"/><polygon points="200,220 225,176 250,220" fill="#9aa5b1" opacity="0.5"/><polygon points="300,220 325,176 350,220" fill="#9aa5b1" opacity="0.4"/><polygon points="350,176 400,176 375,220" fill="#9aa5b1" opacity="0.3"/><polygon points="-25,264 0,220 25,264" fill="#9aa5b1" opacity="0.4"/><polygon points="25,220 75,220 50,264" fill="#9aa5b1" opacity="0.3"/><polygon points="75,264 100,220 125,264" fill="#f5c84c" opacity="0.95"/><polygon points="125,220 175,220 150,264" fill="#f5c84c" opacity="0.95"/><polygon points="175,264 200,220 225,264" fill="#f5c84c" opacity="0.95"/><polygon points="275,264 300,220 325,264" fill="#f5c84c" opacity="0.95"/><polygon points="375,264 400,220 425,264" fill="#9aa5b1" opacity="0.4"/><polygon points="425,220 475,220 450,264" fill="#f5c84c" opacity="0.95"/><polygon points="-50,264 0,264 -25,308" fill="#9aa5b1" opacity="0.3"/><polygon points="0,308 25,264 50,308" fill="#9aa5b1" opacity="0.4"/><polygon points="50,264 100,264 75,308" fill="#9aa5b1" opacity="0.4"/><polygon points="100,308 125,264 150,308" fill="#9aa5b1" opacity="0.4"/><polygon points="200,308 225,264 250,308" fill="#f5c84c" opacity="0.95"/><polygon points="250,264 300,264 275,308" fill="#9aa5b1" opacity="0.4"/><polygon points="350,264 400,264 375,308" fill="#9aa5b1" opacity="0.4"/></g>
+  <rect x="0" y="270" width="400" height="4" fill="#f5c84c"/>
+  <text x="40" y="316" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="3" fill="#f5c84c">SOFTWARE ARCHITECTURE</text>
+  <text font-family="Georgia, 'Times New Roman', serif" font-size="43" font-weight="700" fill="#f5f7fa"><tspan x="40" y="381">Building</tspan><tspan x="40" y="429">Microservices</tspan></text>
+  <rect x="40" y="518" width="48" height="3" fill="#f5c84c"/>
+  <text font-family="Helvetica, Arial, sans-serif" font-size="17" letter-spacing="0.5" fill="#f5f7fa" opacity="0.88"><tspan x="40" y="548">Sam Newman</tspan></text>
+  <text x="40" y="578" font-family="Helvetica, Arial, sans-serif" font-size="9" font-weight="700" letter-spacing="4" fill="#9aa5b1">BOOKNEST EDITIONS</text>
+  <rect width="400" height="600" fill="url(#sheen)"/>
+  <rect x="0" y="0" width="22" height="600" fill="url(#spine)"/>
+  <rect x="22" y="0" width="1" height="600" fill="#ffffff" opacity="0.12"/>
+</svg>

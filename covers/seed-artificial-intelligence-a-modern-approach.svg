@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="600" viewBox="0 0 400 600" role="img" aria-label="Artificial Intelligence: A Modern Approach by Stuart Russell &amp; Peter Norvig">
+  <title>Artificial Intelligence: A Modern Approach - Stuart Russell &amp; Peter Norvig</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#2a0f4a"/>
+      <stop offset="1" stop-color="#4b1d7a"/>
+    </linearGradient>
+    <linearGradient id="spine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#000000" stop-opacity="0.38"/>
+      <stop offset="0.6" stop-color="#000000" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.12"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.10"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="art"><rect x="0" y="0" width="400" height="270"/></clipPath>
+  </defs>
+  <rect width="400" height="600" fill="url(#bg)"/>
+  <g clip-path="url(#art)"><line x1="-270" y1="270" x2="0" y2="0" stroke="#22d3ee" stroke-width="7" opacity="0.95"/><line x1="-254" y1="270" x2="16" y2="0" stroke="#c4b5fd" stroke-width="2" opacity="0.5"/><line x1="-238" y1="270" x2="32" y2="0" stroke="#c4b5fd" stroke-width="2" opacity="0.5"/><line x1="-222" y1="270" x2="48" y2="0" stroke="#c4b5fd" stroke-width="2" opacity="0.5"/><line x1="-206" y1="270" x2="64" y2="0" stroke="#22d3ee" stroke-width="7" opacity="0.95"/><line x1="-190" y1="270" x2="80" y2="0" stroke="#c4b5fd" stroke-width="2" opacity="0.5"/><line x1="-174" y1="270" x2="96" y2="0" stroke="#c4b5fd" stroke-width="2" opacity="0.5"/><line x1="-158" y1="270" x2="112" y2="0" stroke="#c4b5fd" stroke-width="2" opacity="0.5"/><line x1="-142" y1="270" x2="128" y2="0" stroke="#22d3ee" stroke-width="7" opacity="0.95"/><line x1="-126" y1="270" x2="144" y2="0" stroke="#c4b5fd" stroke-width="2" opacity="0.5"/><line x1="-110" y1="270" x2="160" y2="0" stroke="#c4b5fd" stroke-width="2" opacity="0.5"/><line x1="-94" y1="270" x2="176" y2="0" stroke="#c4b5fd" stroke-width="2" opacity="0.5"/><line x1="-78" y1="270" x2="192" y2="0" stroke="#22d3ee" stroke-width="7" opacity="0.95"/><line x1="-62" y1="270" x2="208" y2="0" stroke="#c4b5fd" stroke-width="2" opacity="0.5"/><line x1="-46" y1="270" x2="224" y2="0" stroke="#c4b5fd" stroke-width="2" opacity="0.5"/><line x1="-30" y1="270" x2="240" y2="0" stroke="#c4b5fd" stroke-width="2" opacity="0.5"/><line x1="-14" y1="270" x2="256" y2="0" stroke="#22d3ee" stroke-width="7" opacity="0.95"/><line x1="2" y1="270" x2="272" y2="0" stroke="#c4b5fd" stroke-width="2" opacity="0.5"/><line x1="18" y1="270" x2="288" y2="0" stroke="#c4b5fd" stroke-width="2" opacity="0.5"/><line x1="34" y1="270" x2="304" y2="0" stroke="#c4b5fd" stroke-width="2" opacity="0.5"/><line x1="50" y1="270" x2="320" y2="0" stroke="#22d3ee" stroke-width="7" opacity="0.95"/><line x1="66" y1="270" x2="336" y2="0" stroke="#c4b5fd" stroke-width="2" opacity="0.5"/><line x1="82" y1="270" x2="352" y2="0" stroke="#c4b5fd" stroke-width="2" opacity="0.5"/><line x1="98" y1="270" x2="368" y2="0" stroke="#c4b5fd" stroke-width="2" opacity="0.5"/><line x1="114" y1="270" x2="384" y2="0" stroke="#22d3ee" stroke-width="7" opacity="0.95"/><line x1="130" y1="270" x2="400" y2="0" stroke="#c4b5fd" stroke-width="2" opacity="0.5"/><line x1="146" y1="270" x2="416" y2="0" stroke="#c4b5fd" stroke-width="2" opacity="0.5"/><line x1="162" y1="270" x2="432" y2="0" stroke="#c4b5fd" stroke-width="2" opacity="0.5"/><line x1="178" y1="270" x2="448" y2="0" stroke="#22d3ee" stroke-width="7" opacity="0.95"/><line x1="194" y1="270" x2="464" y2="0" stroke="#c4b5fd" stroke-width="2" opacity="0.5"/><line x1="210" y1="270" x2="480" y2="0" stroke="#c4b5fd" stroke-width="2" opacity="0.5"/><line x1="226" y1="270" x2="496" y2="0" stroke="#c4b5fd" stroke-width="2" opacity="0.5"/><line x1="242" y1="270" x2="512" y2="0" stroke="#22d3ee" stroke-width="7" opacity="0.95"/><line x1="258" y1="270" x2="528" y2="0" stroke="#c4b5fd" stroke-width="2" opacity="0.5"/><line x1="274" y1="270" x2="544" y2="0" stroke="#c4b5fd" stroke-width="2" opacity="0.5"/><line x1="290" y1="270" x2="560" y2="0" stroke="#c4b5fd" stroke-width="2" opacity="0.5"/><line x1="306" y1="270" x2="576" y2="0" stroke="#22d3ee" stroke-width="7" opacity="0.95"/><line x1="322" y1="270" x2="592" y2="0" stroke="#c4b5fd" stroke-width="2" opacity="0.5"/><line x1="338" y1="270" x2="608" y2="0" stroke="#c4b5fd" stroke-width="2" opacity="0.5"/><line x1="354" y1="270" x2="624" y2="0" stroke="#c4b5fd" stroke-width="2" opacity="0.5"/><line x1="370" y1="270" x2="640" y2="0" stroke="#22d3ee" stroke-width="7" opacity="0.95"/><line x1="386" y1="270" x2="656" y2="0" stroke="#c4b5fd" stroke-width="2" opacity="0.5"/><rect x="40" y="60" width="150" height="150" fill="#2a0f4a"/><rect x="40" y="60" width="150" height="150" fill="none" stroke="#22d3ee" stroke-width="3"/></g>
+  <rect x="0" y="270" width="400" height="4" fill="#22d3ee"/>
+  <text x="40" y="316" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="3" fill="#22d3ee">DATA &amp; AI</text>
+  <text font-family="Georgia, 'Times New Roman', serif" font-size="36" font-weight="700" fill="#f5f3ff"><tspan x="40" y="374">Artificial</tspan><tspan x="40" y="414">Intelligence:</tspan><tspan x="40" y="454">A Modern</tspan><tspan x="40" y="494">Approach</tspan></text>
+  <rect x="40" y="518" width="48" height="3" fill="#22d3ee"/>
+  <text font-family="Helvetica, Arial, sans-serif" font-size="17" letter-spacing="0.5" fill="#f5f3ff" opacity="0.88"><tspan x="40" y="548">Stuart Russell &amp; Peter Norvig</tspan></text>
+  <text x="40" y="578" font-family="Helvetica, Arial, sans-serif" font-size="9" font-weight="700" letter-spacing="4" fill="#c4b5fd">BOOKNEST EDITIONS</text>
+  <rect width="400" height="600" fill="url(#sheen)"/>
+  <rect x="0" y="0" width="22" height="600" fill="url(#spine)"/>
+  <rect x="22" y="0" width="1" height="600" fill="#ffffff" opacity="0.12"/>
+</svg>

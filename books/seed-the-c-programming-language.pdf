@@ -1,0 +1,246 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R] /Count 7 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Title (The C Programming Language) /Author (Brian W. Kernighan & Dennis M. Ritchie) /Subject (Computer Science) /Creator (Booknest Seeder) /Producer (Booknest) >>
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 530 >>
+stream
+0.059 0.110 0.247 rg 0 492 612 300 re f
+0.949 0.694 0.204 rg 0 486 612 6 re f
+BT 0.949 0.694 0.204 rg /F2 11 Tf 256.7 702 Td (COMPUTER SCIENCE) Tj ET
+BT 0.992 0.965 0.890 rg /F2 30 Tf 87.6 642 Td (The C Programming Language) Tj ET
+BT 0.12 0.12 0.14 rg /F1 15 Tf 163.5 412 Td (Brian W. Kernighan & Dennis M. Ritchie) Tj ET
+BT 0.40 0.40 0.45 rg /F3 11 Tf 245.5 352 Td (Booknest Study Edition) Tj ET
+0.949 0.694 0.204 RG 1.5 w 266 110 m 346 110 l S
+BT 0.40 0.40 0.45 rg /F2 10 Tf 213.6 88 Td (B O O K N E S T   E D I T I O N S) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 10 0 R >>
+endobj
+10 0 obj
+<< /Length 1365 >>
+stream
+BT 0.12 0.12 0.14 rg /F2 18 Tf 72 680 Td (Bibliographic Record) Tj ET
+0.80 0.80 0.82 RG 1 w 72 666 m 540 666 l S
+BT 0.12 0.12 0.14 rg /F2 11 Tf 72 634 Td (Title) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 192 634 Td (The C Programming Language) Tj ET
+BT 0.12 0.12 0.14 rg /F2 11 Tf 72 609 Td (Author) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 192 609 Td (Brian W. Kernighan & Dennis M. Ritchie) Tj ET
+BT 0.12 0.12 0.14 rg /F2 11 Tf 72 584 Td (Category) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 192 584 Td (Computer Science) Tj ET
+BT 0.12 0.12 0.14 rg /F2 11 Tf 72 559 Td (First published) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 192 559 Td (1988) Tj ET
+BT 0.12 0.12 0.14 rg /F2 11 Tf 72 534 Td (Print length) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 192 534 Td (272 pages) Tj ET
+BT 0.12 0.12 0.14 rg /F2 11 Tf 72 509 Td (ISBN) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 192 509 Td (9780131103627) Tj ET
+BT 0.35 0.35 0.40 rg /F3 10 Tf 72 464 Td (This Booknest study edition contains an original synopsis, thematic notes and) Tj ET
+BT 0.35 0.35 0.40 rg /F3 10 Tf 72 450 Td (discussion questions. It is a companion to the original work and does not reproduce) Tj ET
+BT 0.35 0.35 0.40 rg /F3 10 Tf 72 436 Td (its text.) Tj ET
+BT 0.50 0.50 0.55 rg /F3 9 Tf 72 752 Td (The C Programming Language) Tj ET
+0.85 0.85 0.87 RG 0.6 w 72 744 m 540 744 l S
+BT 0.50 0.50 0.55 rg /F1 9 Tf 303.8 40 Td (2) Tj ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 12 0 R >>
+endobj
+12 0 obj
+<< /Length 846 >>
+stream
+BT 0.12 0.12 0.14 rg /F2 22 Tf 72 680 Td (Contents) Tj ET
+0.949 0.694 0.204 RG 2 w 72 666 m 132 666 l S
+BT 0.12 0.12 0.14 rg /F1 12 Tf 72 620 Td (Chapter 1. Overview) Tj ET
+[2 3] 0 d 0.65 0.65 0.68 RG 0.8 w 194 623 m 512 623 l S [] 0 d
+BT 0.12 0.12 0.14 rg /F2 12 Tf 522 620 Td (4) Tj ET
+BT 0.12 0.12 0.14 rg /F1 12 Tf 72 592 Td (Chapter 2. Key Ideas) Tj ET
+[2 3] 0 d 0.65 0.65 0.68 RG 0.8 w 200 595 m 512 595 l S [] 0 d
+BT 0.12 0.12 0.14 rg /F2 12 Tf 522 592 Td (5) Tj ET
+BT 0.12 0.12 0.14 rg /F1 12 Tf 72 564 Td (Chapter 3. Study Notes and Discussion) Tj ET
+[2 3] 0 d 0.65 0.65 0.68 RG 0.8 w 302 567 m 512 567 l S [] 0 d
+BT 0.12 0.12 0.14 rg /F2 12 Tf 522 564 Td (7) Tj ET
+BT 0.50 0.50 0.55 rg /F3 9 Tf 72 752 Td (The C Programming Language) Tj ET
+0.85 0.85 0.87 RG 0.6 w 72 744 m 540 744 l S
+BT 0.50 0.50 0.55 rg /F1 9 Tf 303.8 40 Td (3) Tj ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 14 0 R >>
+endobj
+14 0 obj
+<< /Length 2331 >>
+stream
+BT 0.12 0.12 0.14 rg /F2 22 Tf 72 680 Td (Chapter 1. Overview) Tj ET
+0.80 0.36 0.20 RG 2 w 72 666 m 132 666 l S
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 636 Td (The concise, authoritative manual on C written by its creators, demonstrating) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 620 Td (pointers, memory management, structures and UNIX system interfaces with crystalline) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 604 Td (precision.) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 578 Td (The C Programming Language, written by Brian W. Kernighan & Dennis M. Ritchie and) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 562 Td (first published in 1988, is widely regarded as an essential work in the field of) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 546 Td (Computer Science. This Booknest study edition summarizes its central arguments,) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 530 Td (highlights the ideas that have influenced generations of readers, and offers) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 514 Td (structured notes for review and discussion.) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 488 Td (Readers approaching the book for the first time should pay attention to how each) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 472 Td (part builds on the previous one. The author introduces a small number of core) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 456 Td (concepts early and returns to them repeatedly, each time from a more demanding) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 440 Td (perspective. Keeping a short glossary while reading makes the later material) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 424 Td (considerably easier to absorb.) Tj ET
+BT 0.12 0.12 0.14 rg /F2 13 Tf 72 392 Td (How to use this edition) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 370 Td (Each chapter of this study edition corresponds to a major theme of the original) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 354 Td (work. Read the summary first, then revisit the relevant sections of the full text,) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 338 Td (and finally attempt the discussion questions in Chapter 3 without referring back to) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 322 Td (your notes.) Tj ET
+BT 0.50 0.50 0.55 rg /F3 9 Tf 72 752 Td (The C Programming Language) Tj ET
+0.85 0.85 0.87 RG 0.6 w 72 744 m 540 744 l S
+BT 0.50 0.50 0.55 rg /F1 9 Tf 303.8 40 Td (4) Tj ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 16 0 R >>
+endobj
+16 0 obj
+<< /Length 3775 >>
+stream
+BT 0.12 0.12 0.14 rg /F2 22 Tf 72 680 Td (Chapter 2. Key Ideas) Tj ET
+0.80 0.36 0.20 RG 2 w 72 666 m 132 666 l S
+BT 0.12 0.12 0.14 rg /F2 13 Tf 72 630 Td (1. Types, operators and control flow) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 608 Td (The theme of "types, operators and control flow" is one of the pillars of The C) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 592 Td (Programming Language. Brian W. Kernighan & Dennis M. Ritchie develops it carefully,) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 576 Td (first through motivating examples and then through a more general treatment that) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 560 Td (reveals why it matters. The discussion connects this theme to the others in the) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 544 Td (book, showing that it is not an isolated topic but part of a coherent way of) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 528 Td (thinking.) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 502 Td (When studying this section, try to restate the main argument in your own words and) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 486 Td (identify one concrete situation in which it applies. Comparing the author's position) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 470 Td (with alternative viewpoints in Computer Science is an effective way to understand) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 454 Td (both its strengths and its limitations.) Tj ET
+BT 0.12 0.12 0.14 rg /F2 13 Tf 72 422 Td (2. Pointers, arrays and dynamic memory) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 400 Td (The theme of "pointers, arrays and dynamic memory" is one of the pillars of The C) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 384 Td (Programming Language. Brian W. Kernighan & Dennis M. Ritchie develops it carefully,) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 368 Td (first through motivating examples and then through a more general treatment that) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 352 Td (reveals why it matters. The discussion connects this theme to the others in the) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 336 Td (book, showing that it is not an isolated topic but part of a coherent way of) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 320 Td (thinking.) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 294 Td (When studying this section, try to restate the main argument in your own words and) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 278 Td (identify one concrete situation in which it applies. Comparing the author's position) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 262 Td (with alternative viewpoints in Computer Science is an effective way to understand) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 246 Td (both its strengths and its limitations.) Tj ET
+BT 0.12 0.12 0.14 rg /F2 13 Tf 72 214 Td (3. Structures and input/output libraries) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 192 Td (The theme of "structures and input/output libraries" is one of the pillars of The C) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 176 Td (Programming Language. Brian W. Kernighan & Dennis M. Ritchie develops it carefully,) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 160 Td (first through motivating examples and then through a more general treatment that) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 144 Td (reveals why it matters. The discussion connects this theme to the others in the) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 128 Td (book, showing that it is not an isolated topic but part of a coherent way of) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 112 Td (thinking.) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 86 Td (When studying this section, try to restate the main argument in your own words and) Tj ET
+BT 0.50 0.50 0.55 rg /F3 9 Tf 72 752 Td (The C Programming Language) Tj ET
+0.85 0.85 0.87 RG 0.6 w 72 744 m 540 744 l S
+BT 0.50 0.50 0.55 rg /F1 9 Tf 303.8 40 Td (5) Tj ET
+endstream
+endobj
+17 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 18 0 R >>
+endobj
+18 0 obj
+<< /Length 1738 >>
+stream
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 700 Td (identify one concrete situation in which it applies. Comparing the author's position) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 684 Td (with alternative viewpoints in Computer Science is an effective way to understand) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 668 Td (both its strengths and its limitations.) Tj ET
+BT 0.12 0.12 0.14 rg /F2 13 Tf 72 636 Td (4. The UNIX system interface) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 614 Td (The theme of "the unix system interface" is one of the pillars of The C Programming) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 598 Td (Language. Brian W. Kernighan & Dennis M. Ritchie develops it carefully, first) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 582 Td (through motivating examples and then through a more general treatment that reveals) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 566 Td (why it matters. The discussion connects this theme to the others in the book,) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 550 Td (showing that it is not an isolated topic but part of a coherent way of thinking.) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 524 Td (When studying this section, try to restate the main argument in your own words and) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 508 Td (identify one concrete situation in which it applies. Comparing the author's position) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 492 Td (with alternative viewpoints in Computer Science is an effective way to understand) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 476 Td (both its strengths and its limitations.) Tj ET
+BT 0.50 0.50 0.55 rg /F3 9 Tf 72 752 Td (The C Programming Language) Tj ET
+0.85 0.85 0.87 RG 0.6 w 72 744 m 540 744 l S
+BT 0.50 0.50 0.55 rg /F1 9 Tf 303.8 40 Td (6) Tj ET
+endstream
+endobj
+19 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 20 0 R >>
+endobj
+20 0 obj
+<< /Length 2859 >>
+stream
+BT 0.12 0.12 0.14 rg /F2 22 Tf 72 680 Td (Chapter 3. Study Notes and Discussion) Tj ET
+0.80 0.36 0.20 RG 2 w 72 666 m 132 666 l S
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 636 Td (The following questions are designed for seminars, reading groups and self-study.) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 620 Td (They move from comprehension toward critical evaluation, and many have no single) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 604 Td (correct answer. Strong responses cite specific passages from The C Programming) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 588 Td (Language and connect them to wider debates in Computer Science.) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 562 Td (Q1. How does the author's treatment of types, operators and control flow change the) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 546 Td (way you would approach a real problem in this area? Give an example, and explain) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 530 Td (what you would have done differently before reading the book.) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 504 Td (Q2. How does the author's treatment of pointers, arrays and dynamic memory change) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 488 Td (the way you would approach a real problem in this area? Give an example, and explain) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 472 Td (what you would have done differently before reading the book.) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 446 Td (Q3. How does the author's treatment of structures and input/output libraries change) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 430 Td (the way you would approach a real problem in this area? Give an example, and explain) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 414 Td (what you would have done differently before reading the book.) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 388 Td (Q4. How does the author's treatment of the unix system interface change the way you) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 372 Td (would approach a real problem in this area? Give an example, and explain what you) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 356 Td (would have done differently before reading the book.) Tj ET
+BT 0.12 0.12 0.14 rg /F2 13 Tf 72 324 Td (Summary) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 302 Td (The C Programming Language rewards careful, repeated reading. Its lasting value) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 286 Td (comes not only from the specific facts or techniques it presents, but from the) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 270 Td (habits of thought it cultivates. Return to these notes after finishing the full text) Tj ET
+BT 0.12 0.12 0.14 rg /F1 11 Tf 72 254 Td (and reflect on which ideas have become part of your own toolkit.) Tj ET
+BT 0.50 0.50 0.55 rg /F3 9 Tf 72 752 Td (The C Programming Language) Tj ET
+0.85 0.85 0.87 RG 0.6 w 72 744 m 540 744 l S
+BT 0.50 0.50 0.55 rg /F1 9 Tf 303.8 40 Td (7) Tj ET
+endstream
+endobj
+xref
+0 21
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000162 00000 n 
+0000000259 00000 n 
+0000000361 00000 n 
+0000000466 00000 n 
+0000000648 00000 n 
+0000000794 00000 n 
+0000001375 00000 n 
+0000001522 00000 n 
+0000002940 00000 n 
+0000003088 00000 n 
+0000003986 00000 n 
+0000004134 00000 n 
+0000006518 00000 n 
+0000006666 00000 n 
+0000010494 00000 n 
+0000010642 00000 n 
+0000012433 00000 n 
+0000012581 00000 n 
+trailer
+<< /Size 21 /Root 1 0 R /Info 6 0 R >>
+startxref
+15493
+%%EOF

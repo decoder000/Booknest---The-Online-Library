@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="600" viewBox="0 0 400 600" role="img" aria-label="1984 by George Orwell">
+  <title>1984 - George Orwell</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#1d3b2a"/>
+      <stop offset="1" stop-color="#2d5a40"/>
+    </linearGradient>
+    <linearGradient id="spine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#000000" stop-opacity="0.38"/>
+      <stop offset="0.6" stop-color="#000000" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.12"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.10"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="art"><rect x="0" y="0" width="400" height="270"/></clipPath>
+  </defs>
+  <rect width="400" height="600" fill="url(#bg)"/>
+  <g clip-path="url(#art)"><rect x="66" y="40" width="120" height="120" fill="#e9d8a6"/><circle cx="263" cy="120" r="80" fill="#a7c4a0" opacity="0.55"/><path d="M 274 270 A 100 100 0 0 1 400 170 L 400 270 Z" fill="#e9d8a6" opacity="0.85"/><rect x="0" y="200" width="226" height="12" fill="#fbf7ec" opacity="0.85"/><path d="M 0 0 L 90 0 A 90 90 0 0 1 0 90 Z" fill="#a7c4a0" opacity="0.4"/><circle cx="294" cy="50" r="14" fill="#fbf7ec" opacity="0.9"/></g>
+  <rect x="0" y="270" width="400" height="4" fill="#e9d8a6"/>
+  <text x="40" y="316" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="3" fill="#e9d8a6">CLASSIC LITERATURE</text>
+  <text font-family="Georgia, 'Times New Roman', serif" font-size="48" font-weight="700" fill="#fbf7ec"><tspan x="40" y="386">1984</tspan></text>
+  <rect x="40" y="518" width="48" height="3" fill="#e9d8a6"/>
+  <text font-family="Helvetica, Arial, sans-serif" font-size="17" letter-spacing="0.5" fill="#fbf7ec" opacity="0.88"><tspan x="40" y="548">George Orwell</tspan></text>
+  <text x="40" y="578" font-family="Helvetica, Arial, sans-serif" font-size="9" font-weight="700" letter-spacing="4" fill="#a7c4a0">BOOKNEST EDITIONS</text>
+  <rect width="400" height="600" fill="url(#sheen)"/>
+  <rect x="0" y="0" width="22" height="600" fill="url(#spine)"/>
+  <rect x="22" y="0" width="1" height="600" fill="#ffffff" opacity="0.12"/>
+</svg>

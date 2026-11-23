@@ -1,0 +1,569 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#F8FAFC" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <title>Booknest - Digital Library</title>
+    <meta name="description" content="Booknest: hand-picked books on computing, science, literature and design - free to read and download." />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='11' fill='%234F46E5'/%3E%3Cpath d='M10 13.5c3.6-1.6 7-1.2 10 1.2 3-2.4 6.4-2.8 10-1.2v14c-3.6-1.6-7-1.2-10 1.2-3-2.4-6.4-2.8-10-1.2z' fill='white'/%3E%3C/svg%3E" />
+    <script>
+      (() => {
+        const saved = localStorage.getItem('booknest_theme');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const theme = saved === 'dark' || saved === 'light' ? saved : prefersDark ? 'dark' : 'light';
+        document.documentElement.dataset.theme = theme;
+        const meta = document.querySelector('meta[name="theme-color"]');
+        if (meta) meta.content = theme === 'dark' ? '#090D16' : '#F8FAFC';
+      })();
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
+    />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#catalog">Skip to catalog</a>
+
+    <!-- ============================ NAVBAR ============================ -->
+    <header class="navbar" id="navbar">
+      <div class="container navbar__inner">
+        <a class="brand" href="#top" aria-label="Booknest home">
+          <svg class="brand__logo" viewBox="0 0 40 40" aria-hidden="true">
+            <defs>
+              <linearGradient id="logoGrad" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#6366F1" />
+                <stop offset="1" stop-color="#4338CA" />
+              </linearGradient>
+            </defs>
+            <rect width="40" height="40" rx="11" fill="url(#logoGrad)" />
+            <path d="M8 27.5c4-2.2 8-2.2 12 0 4-2.2 8-2.2 12 0" fill="none" stroke="#C7D2FE" stroke-width="2" stroke-linecap="round" />
+            <path d="M10 12.5c3.6-1.6 7-1.2 10 1.2v12.6c-3-2.2-6.4-2.6-10-1.2z" fill="#FFFFFF" />
+            <path d="M30 12.5c-3.6-1.6-7-1.2-10 1.2v12.6c3-2.2 6.4-2.6 10-1.2z" fill="#E0E7FF" />
+            <circle cx="20" cy="9" r="2" fill="#FBBF24" />
+          </svg>
+          <span class="brand__name">Booknest</span>
+        </a>
+
+        <nav class="nav-links" aria-label="Primary">
+          <a href="#top" class="nav-link" data-section="top">Discover</a>
+          <a href="#trending" class="nav-link" data-section="trending">Trending</a>
+          <a href="#catalog" class="nav-link" data-section="catalog">Catalog</a>
+          <a href="#community" class="nav-link" data-section="community">Community</a>
+        </nav>
+
+        <div class="nav-actions" id="navActions"></div>
+      </div>
+    </header>
+
+    <main id="top">
+      <!-- ============================= HERO ============================= -->
+      <section class="hero">
+        <div class="container hero__grid">
+          <div class="hero__copy">
+            <span class="eyebrow"><span class="eyebrow__dot"></span>Hand-picked reading &middot; Free to download</span>
+            <h1 class="hero__title">A digital library, <span class="text-accent">built for curious minds.</span></h1>
+            <p class="hero__lead">
+              Discover books on computing, data, literature, physics and design. Read online with page-anchored study notes,
+              request missing titles, and download any book as a PDF in a single click.
+            </p>
+            <div class="hero__ctas">
+              <a href="#catalog" class="btn btn--primary btn--lg">
+                Browse the catalog
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+              </a>
+              <button type="button" class="btn btn--outline" id="beReaderBtn">Be a reader</button>
+            </div>
+            <ul class="hero__facts" aria-label="Library highlights">
+              <li><strong data-stat-text="total_categories">10</strong> subject areas</li>
+              <li><strong>Free</strong> PDF downloads</li>
+              <li><strong>Page-anchored</strong> study notes</li>
+            </ul>
+          </div>
+
+          <div class="hero__art" aria-hidden="true">
+            <svg viewBox="0 0 560 500" class="hero-svg">
+              <defs>
+                <linearGradient id="hBookA" x1="0" y1="0" x2="0.4" y2="1">
+                  <stop offset="0" stop-color="#6366F1" />
+                  <stop offset="1" stop-color="#3730A3" />
+                </linearGradient>
+                <linearGradient id="hBookB" x1="0" y1="0" x2="0.4" y2="1">
+                  <stop offset="0" stop-color="#1E293B" />
+                  <stop offset="1" stop-color="#0F172A" />
+                </linearGradient>
+                <linearGradient id="hBookC" x1="0" y1="0" x2="0.4" y2="1">
+                  <stop offset="0" stop-color="#0F766E" />
+                  <stop offset="1" stop-color="#134E4A" />
+                </linearGradient>
+                <linearGradient id="hSpine" x1="0" y1="0" x2="1" y2="0">
+                  <stop offset="0" stop-color="#000" stop-opacity="0.35" />
+                  <stop offset="1" stop-color="#000" stop-opacity="0" />
+                </linearGradient>
+                <radialGradient id="hGlow" cx="0.5" cy="0.5" r="0.5">
+                  <stop offset="0" stop-color="#E0E7FF" />
+                  <stop offset="1" stop-color="#E0E7FF" stop-opacity="0" />
+                </radialGradient>
+                <pattern id="hDots" width="22" height="22" patternUnits="userSpaceOnUse">
+                  <circle cx="2" cy="2" r="1.6" fill="#CBD5E1" />
+                </pattern>
+                <clipPath id="hClipA"><rect x="0" y="0" width="200" height="300" rx="8" /></clipPath>
+                <clipPath id="hClipB"><rect x="0" y="0" width="170" height="255" rx="8" /></clipPath>
+                <filter id="hShadow" x="-30%" y="-30%" width="160%" height="160%">
+                  <feDropShadow dx="0" dy="18" stdDeviation="16" flood-color="#0F172A" flood-opacity="0.18" />
+                </filter>
+                <filter id="hShadowSm" x="-30%" y="-30%" width="160%" height="160%">
+                  <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#0F172A" flood-opacity="0.12" />
+                </filter>
+              </defs>
+
+              <rect x="30" y="20" width="500" height="460" rx="40" fill="url(#hDots)" opacity="0.7" />
+              <circle cx="285" cy="250" r="230" fill="url(#hGlow)" />
+              <circle cx="285" cy="250" r="200" fill="none" stroke="#C7D2FE" stroke-width="1.5" stroke-dasharray="4 10" />
+
+              <g transform="translate(70 120) rotate(-11 85 128)" filter="url(#hShadow)">
+                <g clip-path="url(#hClipB)">
+                  <rect width="170" height="255" fill="url(#hBookB)" />
+                  <circle cx="125" cy="60" r="22" fill="#FBBF24" />
+                  <circle cx="125" cy="60" r="40" fill="none" stroke="#FBBF24" stroke-opacity="0.6" stroke-width="1.5" />
+                  <circle cx="125" cy="60" r="58" fill="none" stroke="#94A3B8" stroke-opacity="0.5" stroke-width="1.2" />
+                  <circle cx="125" cy="60" r="76" fill="none" stroke="#94A3B8" stroke-opacity="0.35" stroke-width="1.2" />
+                  <rect x="0" y="118" width="170" height="3" fill="#FBBF24" />
+                  <rect x="20" y="140" width="40" height="5" rx="2.5" fill="#FBBF24" />
+                  <rect x="20" y="158" width="118" height="12" rx="3" fill="#F8FAFC" />
+                  <rect x="20" y="178" width="88" height="12" rx="3" fill="#F8FAFC" />
+                  <rect x="20" y="222" width="70" height="6" rx="3" fill="#94A3B8" />
+                  <rect width="14" height="255" fill="url(#hSpine)" />
+                </g>
+              </g>
+
+              <g transform="translate(320 110) rotate(10 85 128)" filter="url(#hShadow)">
+                <g clip-path="url(#hClipB)">
+                  <rect width="170" height="255" fill="url(#hBookC)" />
+                  <g stroke="#5EEAD4" stroke-opacity="0.45" stroke-width="2">
+                    <line x1="-60" y1="118" x2="58" y2="0" /><line x1="-40" y1="118" x2="78" y2="0" />
+                    <line x1="-20" y1="118" x2="98" y2="0" /><line x1="0" y1="118" x2="118" y2="0" />
+                    <line x1="20" y1="118" x2="138" y2="0" /><line x1="40" y1="118" x2="158" y2="0" />
+                    <line x1="60" y1="118" x2="178" y2="0" /><line x1="80" y1="118" x2="198" y2="0" />
+                    <line x1="100" y1="118" x2="218" y2="0" /><line x1="120" y1="118" x2="238" y2="0" />
+                  </g>
+                  <rect x="0" y="118" width="170" height="3" fill="#FB923C" />
+                  <rect x="20" y="140" width="40" height="5" rx="2.5" fill="#FB923C" />
+                  <rect x="20" y="158" width="110" height="12" rx="3" fill="#F0FDFA" />
+                  <rect x="20" y="178" width="76" height="12" rx="3" fill="#F0FDFA" />
+                  <rect x="20" y="222" width="64" height="6" rx="3" fill="#99F6E4" opacity="0.8" />
+                  <rect width="14" height="255" fill="url(#hSpine)" />
+                </g>
+              </g>
+
+              <g transform="translate(180 95)" filter="url(#hShadow)">
+                <g clip-path="url(#hClipA)">
+                  <rect width="200" height="300" fill="url(#hBookA)" />
+                  <rect x="24" y="26" width="70" height="70" fill="#FBBF24" />
+                  <circle cx="132" cy="70" r="46" fill="#A5B4FC" opacity="0.6" />
+                  <path d="M150 140 A 60 60 0 0 1 200 82 L 200 140 Z" fill="#F472B6" opacity="0.9" />
+                  <rect x="0" y="112" width="120" height="7" fill="#F8FAFC" opacity="0.9" />
+                  <rect x="0" y="140" width="200" height="3" fill="#FBBF24" />
+                  <rect x="24" y="164" width="46" height="5" rx="2.5" fill="#FBBF24" />
+                  <rect x="24" y="182" width="140" height="15" rx="4" fill="#FFFFFF" />
+                  <rect x="24" y="205" width="104" height="15" rx="4" fill="#FFFFFF" />
+                  <rect x="24" y="258" width="34" height="3" fill="#FBBF24" />
+                  <rect x="24" y="270" width="86" height="7" rx="3.5" fill="#C7D2FE" />
+                  <rect width="16" height="300" fill="url(#hSpine)" />
+                </g>
+              </g>
+
+              <g class="float float--a" filter="url(#hShadowSm)">
+                <rect x="372" y="40" width="168" height="112" rx="14" fill="#FFFFFF" stroke="#E2E8F0" />
+                <circle cx="392" cy="62" r="5" fill="#4F46E5" />
+                <text x="404" y="66" font-family="Plus Jakarta Sans, Inter, sans-serif" font-size="12" font-weight="700" fill="#0F172A">Popular this week</text>
+                <rect x="388" y="82" width="64" height="7" rx="3.5" fill="#E2E8F0" />
+                <rect x="500" y="82" width="24" height="7" rx="3.5" fill="#C7D2FE" />
+                <rect x="388" y="100" width="82" height="7" rx="3.5" fill="#E2E8F0" />
+                <rect x="504" y="100" width="20" height="7" rx="3.5" fill="#C7D2FE" />
+                <rect x="388" y="118" width="54" height="7" rx="3.5" fill="#E2E8F0" />
+                <rect x="496" y="118" width="28" height="7" rx="3.5" fill="#4F46E5" />
+                <text x="388" y="142" font-family="Inter, sans-serif" font-size="10" fill="#64748B">Updated just now</text>
+              </g>
+
+              <g class="float float--b" filter="url(#hShadowSm)">
+                <rect x="22" y="372" width="214" height="66" rx="16" fill="#FFFFFF" stroke="#E2E8F0" />
+                <circle cx="56" cy="405" r="18" fill="#EEF2FF" />
+                <path d="M56 396v14M50 404l6 6 6-6M49 414h14" fill="none" stroke="#4F46E5" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" />
+                <text x="84" y="400" font-family="Plus Jakarta Sans, Inter, sans-serif" font-size="13" font-weight="700" fill="#0F172A">Your PDF is ready</text>
+                <text x="84" y="419" font-family="Inter, sans-serif" font-size="11" fill="#64748B">Added to your library</text>
+              </g>
+
+              <g class="float float--c" filter="url(#hShadowSm)">
+                <rect x="404" y="360" width="134" height="104" rx="14" fill="#FFFFFF" stroke="#E2E8F0" />
+                <text x="420" y="384" font-family="Plus Jakarta Sans, Inter, sans-serif" font-size="11" font-weight="700" fill="#0F172A">Trending</text>
+                <rect x="420" y="420" width="14" height="30" rx="3" fill="#C7D2FE" />
+                <rect x="442" y="406" width="14" height="44" rx="3" fill="#A5B4FC" />
+                <rect x="464" y="396" width="14" height="54" rx="3" fill="#4F46E5" />
+                <rect x="486" y="412" width="14" height="38" rx="3" fill="#A5B4FC" />
+                <rect x="508" y="426" width="14" height="24" rx="3" fill="#C7D2FE" />
+              </g>
+            </svg>
+          </div>
+        </div>
+
+        <!-- Live metrics strip -->
+        <div class="container">
+          <div class="metrics" id="metrics" aria-live="polite">
+            <div class="metrics__label"><span class="live-dot"></span>The library at a glance</div>
+            <div class="metrics__grid">
+              <div class="metric">
+                <span class="metric__icon"><svg class="icon" viewBox="0 0 24 24"><path d="M4 19.5V5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2zM4 19.5A2 2 0 0 1 6 18h13" /></svg></span>
+                <div><div class="metric__value" data-stat="total_books">-</div><div class="metric__name">Books</div></div>
+              </div>
+              <div class="metric">
+                <span class="metric__icon"><svg class="icon" viewBox="0 0 24 24"><path d="M12 3 3 8l9 5 9-5-9-5zM3 13l9 5 9-5M3 17.5l9 5 9-5" /></svg></span>
+                <div><div class="metric__value" data-stat="total_categories">-</div><div class="metric__name">Categories</div></div>
+              </div>
+              <div class="metric">
+                <span class="metric__icon"><svg class="icon" viewBox="0 0 24 24"><path d="M12 4v11M7 10l5 5 5-5M5 20h14" /></svg></span>
+                <div><div class="metric__value" data-stat="total_downloads">-</div><div class="metric__name">Downloads</div></div>
+              </div>
+              <div class="metric">
+                <span class="metric__icon"><svg class="icon" viewBox="0 0 24 24"><path d="M16 20v-1.5a3.5 3.5 0 0 0-3.5-3.5h-5A3.5 3.5 0 0 0 4 18.5V20M10 11a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7zM20 20v-1.5a3.5 3.5 0 0 0-2.5-3.35M15.5 4.15a3.5 3.5 0 0 1 0 6.7" /></svg></span>
+                <div><div class="metric__value" data-stat="total_users">-</div><div class="metric__name">Readers</div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================== TRENDING =========================== -->
+      <section class="section" id="trending">
+        <div class="container">
+          <div class="section__head">
+            <div>
+              <span class="kicker">Trending shelf</span>
+              <h2 class="section__title">Most downloaded right now</h2>
+            </div>
+            <p class="section__note">Ranked by how often readers download each book.</p>
+          </div>
+          <div class="trending" id="trendingShelf"></div>
+        </div>
+      </section>
+
+      <!-- ============================ CATALOG =========================== -->
+      <section class="section" id="catalog">
+        <div class="container">
+          <div class="section__head">
+            <div>
+              <span class="kicker">The catalog</span>
+              <h2 class="section__title">Explore every book</h2>
+            </div>
+            <p class="section__note" id="resultCount" aria-live="polite"></p>
+          </div>
+
+          <div class="toolbar">
+            <label class="search">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" /><path d="m20 20-3.5-3.5" /></svg>
+              <span class="sr-only">Search books</span>
+              <input type="search" id="searchInput" placeholder="Search by title, author or ISBN" autocomplete="off" />
+            </label>
+            <label class="select">
+              <span class="select__label">Sort</span>
+              <select id="sortSelect" aria-label="Sort books">
+                <option value="newest">Newest</option>
+                <option value="popular">Most popular</option>
+                <option value="rating">Top rated</option>
+                <option value="title">Title A-Z</option>
+              </select>
+              <svg class="icon icon--sm" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6" /></svg>
+            </label>
+          </div>
+
+          <div class="pills" id="categoryPills" role="tablist" aria-label="Filter by category"></div>
+
+          <div class="grid" id="catalogGrid" aria-live="polite"></div>
+          <div class="catalog-more" id="catalogMore"></div>
+        </div>
+      </section>
+
+      <!-- ======================== COMMUNITY HUB ========================= -->
+      <section class="section section--band section--catalog" id="community">
+        <div class="container">
+          <div class="community-grid">
+            <div class="community-panel">
+              <div class="section__head" style="margin-bottom: 18px">
+                <div>
+                  <span class="kicker">Reader Wishlist</span>
+                  <h2 class="section__title" style="font-size: clamp(24px, 2.5vw, 32px)">Book Request Board</h2>
+                </div>
+                <button type="button" class="btn btn--primary btn--sm" data-action="open-request">+ Request a book</button>
+              </div>
+              <p class="community-sub">Vote for missing textbooks or papers. Matching ISBNs or titles auto-fulfill when published.</p>
+              <div id="requestsBoard" class="requests-list"></div>
+            </div>
+
+            <div class="community-panel">
+              <div class="section__head" style="margin-bottom: 18px">
+                <div>
+                  <span class="kicker">Engagement Ranking</span>
+                  <h2 class="section__title" style="font-size: clamp(24px, 2.5vw, 32px)">Top Readers</h2>
+                </div>
+                <span class="tag">Live Leaderboard</span>
+              </div>
+              <p class="community-sub">Scored by verified downloads (10 pts), reviews (25 pts), study notes (15 pts), and pages read (1 pt/page).</p>
+              <div id="leaderboardList" class="leader-list"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <span class="brand brand--sm">
+          <svg class="brand__logo" viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="11" fill="#4F46E5" /><path d="M10 12.5c3.6-1.6 7-1.2 10 1.2v12.6c-3-2.2-6.4-2.6-10-1.2z" fill="#FFFFFF" /><path d="M30 12.5c-3.6-1.6-7-1.2-10 1.2v12.6c3-2.2 6.4-2.6 10-1.2z" fill="#E0E7FF" /></svg>
+          <span class="brand__name">Booknest</span>
+        </span>
+        <p>Hand-picked books on computing, science, literature and design &mdash; free to read and download.</p>
+      </div>
+    </footer>
+
+    <!-- ============================ MODALS ============================ -->
+    <dialog class="modal modal--wide" id="bookModal" aria-labelledby="bookModalTitle">
+      <div class="modal__body" id="bookModalBody"></div>
+    </dialog>
+
+    <dialog class="modal modal--narrow" id="requestModal" aria-labelledby="requestModalTitle">
+      <div class="modal__header">
+        <div>
+          <h2 class="modal__title" id="requestModalTitle">Request a Book</h2>
+          <p class="modal__subtitle">Suggest a title for the library. Other readers can upvote your request.</p>
+        </div>
+        <button type="button" class="icon-btn" data-close aria-label="Close">
+          <svg class="icon" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12" /></svg>
+        </button>
+      </div>
+      <div class="modal__content">
+        <form id="requestForm" class="form" novalidate>
+          <label class="field">
+            <span class="field__label">Book title *</span>
+            <input name="title" type="text" required maxlength="255" placeholder="e.g. Introduction to the Theory of Computation" />
+          </label>
+          <label class="field">
+            <span class="field__label">Author(s) *</span>
+            <input name="author" type="text" required maxlength="255" placeholder="e.g. Michael Sipser" />
+          </label>
+          <label class="field">
+            <span class="field__label">ISBN <small>(optional &mdash; enables automatic fulfillment)</small></span>
+            <input name="isbn" type="text" inputmode="numeric" placeholder="9781133187790" />
+          </label>
+          <label class="field">
+            <span class="field__label">Why should we add it?</span>
+            <textarea name="reason" rows="3" maxlength="500" placeholder="Course reference, topic overview, etc."></textarea>
+          </label>
+          <p class="form__error" role="alert"></p>
+          <button type="submit" class="btn btn--primary btn--block btn--lg">Submit request</button>
+        </form>
+      </div>
+    </dialog>
+
+    <dialog class="modal modal--narrow" id="authModal" aria-labelledby="authTitle">
+      <div class="modal__header">
+        <div>
+          <h2 class="modal__title" id="authTitle">Welcome to Booknest</h2>
+          <p class="modal__subtitle">Sign in to download books and save bookmarks.</p>
+        </div>
+        <button type="button" class="icon-btn" data-close aria-label="Close">
+          <svg class="icon" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12" /></svg>
+        </button>
+      </div>
+      <div class="modal__content">
+        <div class="segmented" role="tablist">
+          <button type="button" class="segmented__btn is-active" data-auth-tab="login" role="tab" aria-selected="true">Sign in</button>
+          <button type="button" class="segmented__btn" data-auth-tab="register" role="tab" aria-selected="false">Create account</button>
+        </div>
+
+        <form id="loginForm" class="form" novalidate>
+          <label class="field">
+            <span class="field__label">Email or username</span>
+            <input name="email" type="text" autocomplete="username" required />
+          </label>
+          <label class="field">
+            <span class="field__label">Password</span>
+            <input name="password" type="password" autocomplete="current-password" required />
+          </label>
+          <p class="form__error" role="alert"></p>
+          <button type="submit" class="btn btn--primary btn--block btn--lg">Sign in</button>
+        </form>
+
+        <form id="registerForm" class="form" hidden novalidate>
+          <label class="field">
+            <span class="field__label">Full name</span>
+            <input name="full_name" type="text" autocomplete="name" required maxlength="120" />
+          </label>
+          <div class="field-row">
+            <label class="field">
+              <span class="field__label">Username</span>
+              <input name="username" type="text" autocomplete="username" required minlength="3" maxlength="40" pattern="[A-Za-z0-9_.]{3,40}" />
+            </label>
+            <label class="field">
+              <span class="field__label">Email</span>
+              <input name="email" type="email" autocomplete="email" required />
+            </label>
+          </div>
+          <label class="field">
+            <span class="field__label">Password <small>(min. 6 characters)</small></span>
+            <input name="password" type="password" autocomplete="new-password" required minlength="6" />
+          </label>
+          <p class="form__error" role="alert"></p>
+          <button type="submit" class="btn btn--primary btn--block btn--lg">Create account</button>
+        </form>
+      </div>
+    </dialog>
+
+    <dialog class="modal modal--wide" id="libraryModal" aria-labelledby="libraryTitle">
+      <div class="modal__header">
+        <div>
+          <h2 class="modal__title" id="libraryTitle">My Library</h2>
+          <p class="modal__subtitle" id="librarySubtitle">Your reading activity</p>
+        </div>
+        <button type="button" class="icon-btn" data-close aria-label="Close">
+          <svg class="icon" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12" /></svg>
+        </button>
+      </div>
+      <div class="modal__content" id="libraryContent"></div>
+    </dialog>
+
+    <dialog class="modal modal--wide" id="adminModal" aria-labelledby="adminTitle">
+      <div class="modal__header">
+        <div>
+          <h2 class="modal__title" id="adminTitle">Admin Studio</h2>
+          <p class="modal__subtitle">Publish new titles and manage the catalog.</p>
+        </div>
+        <button type="button" class="icon-btn" data-close aria-label="Close">
+          <svg class="icon" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12" /></svg>
+        </button>
+      </div>
+      <div class="modal__content">
+        <div class="segmented" role="tablist">
+          <button type="button" class="segmented__btn is-active" data-admin-tab="add" role="tab" aria-selected="true">Add a book</button>
+          <button type="button" class="segmented__btn" data-admin-tab="manage" role="tab" aria-selected="false">Manage catalog</button>
+          <button type="button" class="segmented__btn" data-admin-tab="audit" role="tab" aria-selected="false">Audit Trail</button>
+        </div>
+
+        <form id="adminForm" class="form" novalidate>
+          <div class="field-row">
+            <label class="field">
+              <span class="field__label">Title *</span>
+              <input name="title" type="text" required maxlength="255" />
+            </label>
+            <label class="field">
+              <span class="field__label">Author *</span>
+              <input name="author" type="text" required maxlength="255" />
+            </label>
+          </div>
+          <div class="field-row field-row--4">
+            <label class="field">
+              <span class="field__label">ISBN</span>
+              <input name="isbn" type="text" inputmode="numeric" placeholder="978..." />
+            </label>
+            <label class="field">
+              <span class="field__label">Year</span>
+              <input name="published_year" type="number" min="0" max="2100" />
+            </label>
+            <label class="field">
+              <span class="field__label">Pages</span>
+              <input name="pages" type="number" min="1" />
+            </label>
+            <label class="field">
+              <span class="field__label">Category</span>
+              <select name="category_id" id="adminCategory"></select>
+            </label>
+          </div>
+          <label class="field">
+            <span class="field__label">Description</span>
+            <textarea name="description" rows="3"></textarea>
+          </label>
+          <div class="field-row">
+            <label class="dropzone" data-dropzone>
+              <input type="file" name="cover" accept="image/png,image/jpeg,image/webp,image/gif,image/svg+xml" />
+              <span class="dropzone__icon"><svg class="icon" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="3" /><circle cx="9" cy="9" r="2" /><path d="m21 15-5-5L5 21" /></svg></span>
+              <span class="dropzone__title">Cover image</span>
+              <span class="dropzone__hint" data-default="Optional - auto-generated if empty">Optional - auto-generated if empty</span>
+            </label>
+            <label class="dropzone" data-dropzone>
+              <input type="file" name="bookFile" accept="application/pdf,.pdf" required />
+              <span class="dropzone__icon"><svg class="icon" viewBox="0 0 24 24"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9zM14 3v6h6M12 18v-6M9 15l3-3 3 3" /></svg></span>
+              <span class="dropzone__title">Book PDF *</span>
+              <span class="dropzone__hint" data-default="Required - up to 50 MB">Required - up to 50 MB</span>
+            </label>
+          </div>
+          <p class="form__error" role="alert"></p>
+          <button type="submit" class="btn btn--primary btn--lg">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14" /></svg>
+            Publish book
+          </button>
+        </form>
+
+        <div id="adminManage" hidden></div>
+        <div id="adminAudit" hidden></div>
+      </div>
+    </dialog>
+
+    <dialog class="modal modal--reader" id="readerModal" aria-labelledby="readerTitle">
+      <div class="reader">
+        <div class="reader__bar">
+          <div class="reader__heading">
+            <span class="reader__kicker">Reading online</span>
+            <h2 class="reader__title" id="readerTitle">Book</h2>
+          </div>
+          <form class="reader__progress" id="readerForm" novalidate>
+            <label class="reader__field">
+              <span>Current page</span>
+              <input type="number" name="current_page" min="1" step="1" inputmode="numeric" required />
+            </label>
+            <span class="reader__of">of</span>
+            <label class="reader__field">
+              <span>Total pages</span>
+              <input type="number" name="total_pages" min="1" step="1" inputmode="numeric" required />
+            </label>
+            <button type="submit" class="btn btn--primary">Save Progress</button>
+          </form>
+          <button type="button" class="icon-btn" data-close aria-label="Close reader">
+            <svg class="icon" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12" /></svg>
+          </button>
+        </div>
+        <div class="reader__meter" aria-hidden="true"><div class="reader__meter-fill" id="readerMeter"></div></div>
+        <p class="reader__status" id="readerStatus" aria-live="polite"></p>
+        <div class="reader__body">
+          <div class="reader__frame">
+            <iframe id="readerFrame" title="PDF reader" src="about:blank"></iframe>
+          </div>
+          <aside class="reader__notes" aria-label="Page-anchored study notes">
+            <div class="reader__notes-head">
+              <h3>Page Study Notes</h3>
+              <span id="notesPageBadge" class="badge-progress">Page 1</span>
+            </div>
+            <form id="noteForm" class="note-form" novalidate>
+              <textarea name="note_text" rows="2" maxlength="600" placeholder="Add a study note anchored to the current page..."></textarea>
+              <div class="note-form__foot">
+                <label class="note-check">
+                  <input type="checkbox" name="is_public" checked />
+                  <span>Share with readers</span>
+                </label>
+                <button type="submit" class="btn btn--soft btn--sm">Save note</button>
+              </div>
+            </form>
+            <div id="readerNotesList" class="notes-list"></div>
+          </aside>
+        </div>
+      </div>
+    </dialog>
+
+    <div class="toasts" id="toasts" aria-live="polite" aria-atomic="false"></div>
+
+    <script src="/app.js" defer></script>
+  </body>
+</html>
